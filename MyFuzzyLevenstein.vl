@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="FllxGdqTiBhOpXvactednU" LanguageVersion="2021.4.0.612" Version="0.128">
-  <NugetDependency Id="Csw0pz2oYDvQCNFxvTKEOR" Location="VL.CoreLib" Version="2021.4.0-0612-g61674eb07b" />
+<Document xmlns:p="property" Id="FllxGdqTiBhOpXvactednU" LanguageVersion="2021.4.1.630" Version="0.128">
+  <NugetDependency Id="Csw0pz2oYDvQCNFxvTKEOR" Location="VL.CoreLib" Version="2021.4.1-0630-g38f8355d9f" />
   <Patch Id="DwZBIALdabOPFuhqz5KTQK">
     <Canvas Id="Ph4lWFdZGwkLiwbNjC0Swy" DefaultCategory="Main" CanvasType="FullCategory">
       <!--
@@ -863,10 +863,10 @@
                               <Pin Id="RJtRn66UcP1PEr5qHJ3dFt" Name="Output" Kind="StateOutputPin" />
                             </Node>
                             <Node Bounds="465,710,74,26" Id="KMGk7DX8f5OOo9Ei6rc6Z7">
-                              <p:NodeReference LastCategoryFullName="Main.ISimilarity" LastSymbolSource="MyFuzzyLevenstein.vl">
+                              <p:NodeReference LastCategoryFullName="Main.IStringMetric" LastSymbolSource="MyFuzzyLevenstein.vl">
                                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                                <CategoryReference Kind="InterfaceTypeFlag" Name="ISimilarity" />
                                 <Choice Kind="OperationCallFlag" Name="GetSimilarity" />
+                                <CategoryReference Kind="MutableInterfaceType" Name="IStringMetric" NeedsToBeDirectParent="true" />
                               </p:NodeReference>
                               <Pin Id="I7NF2XrQOoPQU9pV5iViTF" Name="Input" Kind="StateInputPin" />
                               <Pin Id="LxVH18RM0nXOO1qk0eldbq" Name="First Word" Kind="InputPin" />
@@ -915,9 +915,9 @@
               </Patch>
             </Node>
             <ControlPoint Id="Oa9n3fCiSz7PBgojMwFXEj" Bounds="815,87" />
-            <ControlPoint Id="R4d5pYP9gQiLezhzih7IMH" Bounds="338,86" />
+            <ControlPoint Id="R4d5pYP9gQiLezhzih7IMH" Bounds="294,84" />
             <ControlPoint Id="S4XOKShJwe0O9ScIHM5Y4p" Bounds="407,86" />
-            <Node Bounds="272,139,201,252" Id="EM2SP2xZTbpLBAyklyzUcf">
+            <Node Bounds="228,136,201,252" Id="EM2SP2xZTbpLBAyklyzUcf">
               <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                 <Choice Kind="ProcessStatefulRegion" Name="Cache" />
@@ -926,13 +926,13 @@
               <Pin Id="JywdSEnxy2CMyrmm36QlRe" Name="Force" Kind="InputPin" DefaultValue="False" />
               <Pin Id="PMqDMzck2CsN1Ltva0uOvD" Name="Dispose Cached Outputs" Kind="InputPin" />
               <Pin Id="MTjVFw2GCy7LwpgCpYFzoG" Name="Has Changed" Kind="OutputPin" />
-              <ControlPoint Id="Ma8Y8Ab2NlaMWkVND3JgTD" Bounds="338,145" Alignment="Top" />
-              <ControlPoint Id="Rq3wYQilKAlN6u1E7vMeBf" Bounds="341,385" Alignment="Bottom" />
-              <ControlPoint Id="Q71NWmoK8HyNz45SNC8qdt" Bounds="365,385" Alignment="Bottom" />
+              <ControlPoint Id="Ma8Y8Ab2NlaMWkVND3JgTD" Bounds="294,143" Alignment="Top" />
+              <ControlPoint Id="Rq3wYQilKAlN6u1E7vMeBf" Bounds="297,384" Alignment="Bottom" />
+              <ControlPoint Id="Q71NWmoK8HyNz45SNC8qdt" Bounds="321,384" Alignment="Bottom" />
               <Patch Id="PHONnwto6CbOBf9JJnXh8k" ManuallySortedPins="true">
                 <Patch Id="M6hh7YRav6EN2djwQq8UVP" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="AbH0cL10afVNfcri1ozhWV" Name="Then" ManuallySortedPins="true" />
-                <Node Bounds="324,165,137,170" Id="BDGzHx3DTjKPdg0suvkfyG">
+                <Node Bounds="280,162,137,170" Id="BDGzHx3DTjKPdg0suvkfyG">
                   <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                     <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                     <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
@@ -943,7 +943,7 @@
                     <Patch Id="JnJ6bvGMjDoQBwEqluafVr" Name="Create" ManuallySortedPins="true" />
                     <Patch Id="MTLL07m7Q3RNBZuUbzc680" Name="Update" ManuallySortedPins="true" />
                     <Patch Id="NfhnbyA7zBcMCMMGz800zV" Name="Dispose" ManuallySortedPins="true" />
-                    <Node Bounds="338,243,45,19" Id="Ck6XkikMCZLLdtib9TZSp9">
+                    <Node Bounds="294,241,45,19" Id="Ck6XkikMCZLLdtib9TZSp9">
                       <p:NodeReference LastCategoryFullName="Primitive.String" LastSymbolSource="CoreLibBasics.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <CategoryReference Kind="StringType" Name="String" />
@@ -954,7 +954,7 @@
                       <Pin Id="OaCRHUz0ZGmLSiT7FA1dz2" Name="Options" Kind="InputPin" DefaultValue="RemoveEmptyEntries" />
                       <Pin Id="M6NqJi70X1NQaWcN4tJWMC" Name="Output" Kind="StateOutputPin" />
                     </Node>
-                    <Node Bounds="336,197,55,26" Id="QaIDLfuo1WfNH1R0tQ92YP">
+                    <Node Bounds="292,195,55,26" Id="QaIDLfuo1WfNH1R0tQ92YP">
                       <p:NodeReference LastCategoryFullName="Primitive.String" LastSymbolSource="CoreLibBasics.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationCallFlag" Name="ToLower" />
@@ -964,9 +964,9 @@
                       <Pin Id="TzdCAfKHzQOMNRRCn4rwIg" Name="Output" Kind="StateOutputPin" />
                     </Node>
                   </Patch>
-                  <ControlPoint Id="KKTc8SR0A2DQd6KTEyGj5e" Bounds="338,171" Alignment="Top" />
-                  <ControlPoint Id="AUyKkEYjHA8OdoqxC19kd5" Bounds="341,329" Alignment="Bottom" />
-                  <ControlPoint Id="VQgRfNJ3tM0MZt5Tq2xcRE" Bounds="365,329" Alignment="Bottom" />
+                  <ControlPoint Id="KKTc8SR0A2DQd6KTEyGj5e" Bounds="294,169" Alignment="Top" />
+                  <ControlPoint Id="AUyKkEYjHA8OdoqxC19kd5" Bounds="297,328" Alignment="Bottom" />
+                  <ControlPoint Id="VQgRfNJ3tM0MZt5Tq2xcRE" Bounds="321,328" Alignment="Bottom" />
                 </Node>
               </Patch>
             </Node>
@@ -1138,110 +1138,6 @@
           <Link Id="BU7eKOM6BKqOWvAREajdWi" Ids="FtPCzx3EBV9OUv0GkgZOE5,SM1uQkaiNAFLijp6H8YkPz" />
         </Patch>
       </Node>
-      <!--
-
-    ************************ ISimilarity ************************
-
--->
-      <Node Name="ISimilarity" Bounds="356,530" Id="ExyLAsJgeZ1LnafuDDo1qq">
-        <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
-          <Choice Kind="InterfaceDefinition" Name="Interface" />
-        </p:NodeReference>
-        <Patch Id="OlY72NvHuvTNnoJ2Pkumry">
-          <Canvas Id="V1pJcIgAmmDQVgnh6PxMoi" CanvasType="Group">
-            <ControlPoint Id="DD9MynOTlX4PRIGxlAaV4w" Bounds="599,207" />
-            <ControlPoint Id="JzC6w0IuBPKOhJDMJhJuDG" Bounds="680,207" />
-            <ControlPoint Id="Prq3tKKDhwfNc4ZFwOOVoE" Bounds="651,277" />
-          </Canvas>
-          <ProcessDefinition Id="QKhADZSdS6jPiswHtEy0Mi" IsHidden="true">
-            <Fragment Id="SUSq4P4448DNEv3Z4KwHhJ" Patch="VbKbnS6ZfMQOKk4hCiz6RE" />
-          </ProcessDefinition>
-          <Patch Id="VbKbnS6ZfMQOKk4hCiz6RE" Name="GetSimilarity">
-            <Pin Id="Ek2Eha99wnyPjSZxUzKI8T" Name="First Word" Kind="InputPin">
-              <p:TypeAnnotation>
-                <Choice Kind="TypeFlag" Name="String" />
-              </p:TypeAnnotation>
-            </Pin>
-            <Pin Id="E0g1nCXFnSEN3nM4mg7UcQ" Name="Second Word" Kind="InputPin">
-              <p:TypeAnnotation>
-                <Choice Kind="TypeFlag" Name="String" />
-              </p:TypeAnnotation>
-            </Pin>
-            <Pin Id="Q550f5ARJ56PXa1GGrdoHF" Name="Result" Kind="OutputPin">
-              <p:TypeAnnotation>
-                <Choice Kind="TypeFlag" Name="Float64" />
-              </p:TypeAnnotation>
-            </Pin>
-          </Patch>
-          <Link Id="L3d6Icne8SDLGrwBnSjxCy" Ids="Ek2Eha99wnyPjSZxUzKI8T,DD9MynOTlX4PRIGxlAaV4w" IsHidden="true" />
-          <Link Id="PrLw63NYlxgQHPU6MsavYY" Ids="E0g1nCXFnSEN3nM4mg7UcQ,JzC6w0IuBPKOhJDMJhJuDG" IsHidden="true" />
-          <Link Id="LdulcKmOIxdPv4U1x2pra1" Ids="Prq3tKKDhwfNc4ZFwOOVoE,Q550f5ARJ56PXa1GGrdoHF" IsHidden="true" />
-        </Patch>
-      </Node>
-      <!--
-
-    ************************ Levenstein ************************
-
--->
-      <Node Name="Levenstein" Bounds="356,568" Id="AUnZ3NEJMWkMYEowhBkcqe">
-        <p:NodeReference>
-          <Choice Kind="ClassDefinition" Name="Class" />
-          <FullNameCategoryReference ID="Primitive" />
-        </p:NodeReference>
-        <p:Interfaces>
-          <TypeReference LastCategoryFullName="Main" LastSymbolSource="MyFuzzyLevenstein.vl">
-            <Choice Kind="InterfaceTypeFlag" Name="ISimilarity" />
-          </TypeReference>
-        </p:Interfaces>
-        <Patch Id="QkzEcWXoHwiLnzv2nNmsf8">
-          <Canvas Id="EqwJRk3H8xCOiQnT5bBK3V" CanvasType="Group">
-            <Node Bounds="480,266,54,26" Id="K94yi4rtEBuMKw8gjxPWur">
-              <p:NodeReference LastCategoryFullName="SimMetrics.Net.Metric.Levenstein" LastSymbolSource="SimMetrics.Net.dll">
-                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                <CategoryReference Kind="AssemblyCategory" Name="Levenstein" />
-                <Choice Kind="OperationCallFlag" Name="Create" />
-              </p:NodeReference>
-              <Pin Id="T5VY346tUc3OmYX9ABnPR0" Name="Output" Kind="StateOutputPin" />
-            </Node>
-            <Pad Id="Tnp04B9A2XuO0xkzCTb2Ca" Bounds="481,322" />
-            <Node Bounds="520,367,74,26" Id="NOT7gY3wdJ7MhLEpDIcCzt">
-              <p:NodeReference LastCategoryFullName="SimMetrics.Net.Metric.Levenstein" LastSymbolSource="SimMetrics.Net.dll">
-                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                <Choice Kind="OperationCallFlag" Name="GetSimilarity" />
-                <CategoryReference Kind="AssemblyCategory" Name="Levenstein" NeedsToBeDirectParent="true" />
-              </p:NodeReference>
-              <Pin Id="PdKLGDAEK4WQJuePI56Rmv" Name="Input" Kind="StateInputPin" />
-              <Pin Id="D8JTDauebxGOc8Gl86hBPh" Name="First Word" Kind="InputPin" />
-              <Pin Id="AcsuGkcDvozPS1JcasMk3Y" Name="Second Word" Kind="InputPin" />
-              <Pin Id="Ksl6MJuX33ZMIieyC1J710" Name="Output" Kind="StateOutputPin" />
-              <Pin Id="Vn7FWfczE1fNpaXIES71mj" Name="Result" Kind="OutputPin" />
-            </Node>
-            <ControlPoint Id="RxBzVfsXQt5MTOLwixHmdH" Bounds="601,321" />
-            <ControlPoint Id="NQEnV15zDVJM3dAgpF5RoA" Bounds="682,321" />
-            <ControlPoint Id="ItkR5IT0T8qOcpKp8HFM11" Bounds="649,417" />
-          </Canvas>
-          <Patch Id="TdqihHjivxnQDZPh7TRi4s" Name="Create" ParticipatingElements="L50PN2qCXzAN7qefEgWsYn" />
-          <Patch Id="DnawvbA8nhxQYrcgzZ3RuL" Name="Update" />
-          <ProcessDefinition Id="I9FzwJJCFFYN667OadgEOy" HasStateOut="true">
-            <Fragment Id="BeQ2QJ535CwPo4NRnz0Dnv" Patch="TdqihHjivxnQDZPh7TRi4s" Enabled="true" />
-            <Fragment Id="MtIkeXlhT6MQH2jXGy5RLG" Patch="DnawvbA8nhxQYrcgzZ3RuL" />
-            <Fragment Id="DJtV0WCyRbjOF3vhjymdA6" Patch="Nl0BcRqZkawO6AfiplH4Uy" />
-          </ProcessDefinition>
-          <Link Id="L50PN2qCXzAN7qefEgWsYn" Ids="T5VY346tUc3OmYX9ABnPR0,Tnp04B9A2XuO0xkzCTb2Ca" />
-          <Link Id="DccGuL9FscIL7idSqpCWBC" Ids="Tnp04B9A2XuO0xkzCTb2Ca,PdKLGDAEK4WQJuePI56Rmv" />
-          <Link Id="RABw6PvlWW3LDmS5F70alJ" Ids="RxBzVfsXQt5MTOLwixHmdH,D8JTDauebxGOc8Gl86hBPh" />
-          <Link Id="L9hDlBF6f8fNv8nv0MlhDY" Ids="L4RhosKSU1NPu5BLB9cvEI,RxBzVfsXQt5MTOLwixHmdH" IsHidden="true" />
-          <Link Id="QMUqEa8GKkTObEIX44nEY7" Ids="NQEnV15zDVJM3dAgpF5RoA,AcsuGkcDvozPS1JcasMk3Y" />
-          <Link Id="KvKQj0XGVWkPLzHb6rdxWp" Ids="E9qsY59m8LnMu608hczDOj,NQEnV15zDVJM3dAgpF5RoA" IsHidden="true" />
-          <Link Id="UZ3qjttp6boOTJNPzvHr0j" Ids="Vn7FWfczE1fNpaXIES71mj,ItkR5IT0T8qOcpKp8HFM11" />
-          <Link Id="SM6NXwKyjF2QQhoZcNAqoi" Ids="ItkR5IT0T8qOcpKp8HFM11,VpAZp9kzybmNwyteQvDCrC" IsHidden="true" />
-          <Patch Id="Nl0BcRqZkawO6AfiplH4Uy" Name="GetSimilarity">
-            <Pin Id="L4RhosKSU1NPu5BLB9cvEI" Name="First Word" Kind="InputPin" />
-            <Pin Id="E9qsY59m8LnMu608hczDOj" Name="Second Word" Kind="InputPin" />
-            <Pin Id="VpAZp9kzybmNwyteQvDCrC" Name="Result" Kind="OutputPin" />
-          </Patch>
-        </Patch>
-      </Node>
       <Pad Id="KO7LTjDZSThP5lfWNG17sB" Bounds="347,474,81,19" ShowValueBox="true" isIOBox="true" Value="//Distances">
         <p:TypeAnnotation>
           <Choice Kind="TypeFlag" Name="String" />
@@ -1341,11 +1237,11 @@
             <ControlPoint Id="Qo7CRIy6GwCPpVlzkBCzbb" Bounds="575,300" />
             <ControlPoint Id="SmQURjmHG6jMvMe56gcr2u" Bounds="575,360" />
             <Pad Id="OK7N0tlBBAfLFhxX0ghany" SlotId="Jk3sYOOkkG8MWujnS7aPck" Bounds="790,327" />
-            <Pad Id="IxZoZMGVELOOyojjpo5YFe" SlotId="Qj8fLz4uBBSOhBM51bEmnQ" Bounds="899,327" />
+            <Pad Id="IxZoZMGVELOOyojjpo5YFe" SlotId="Qj8fLz4uBBSOhBM51bEmnQ" Bounds="962,326" />
             <ControlPoint Id="J8o6pEgcOuLPT1RucJxZqy" Bounds="790,297" />
             <ControlPoint Id="EBihChcBxHyM5ea5ZZ3D7b" Bounds="790,357" />
-            <ControlPoint Id="DfPrAhKI9XBMnpwhH74Que" Bounds="899,297" />
-            <ControlPoint Id="PhYv440zljSPoi9Fu5vG9g" Bounds="899,357" />
+            <ControlPoint Id="DfPrAhKI9XBMnpwhH74Que" Bounds="962,296" />
+            <ControlPoint Id="PhYv440zljSPoi9Fu5vG9g" Bounds="962,356" />
             <ControlPoint Id="Ta2aXMnadk3QNIbKWucfpw" Bounds="487,299" />
           </Canvas>
           <ProcessDefinition Id="Eav3ehVYDodMHGT7Vaja1U" IsHidden="true">
@@ -1702,11 +1598,6 @@
               </p:ValueBoxSettings>
             </Pad>
           </Canvas>
-          <!--
-
-    ************************  ************************
-
--->
           <ProcessDefinition Id="HWBXbnb7mrKMSBmt6TSBus">
             <Fragment Id="PTBKdgDPew2N0XuAwyxKJT" Patch="C5HrHhmXHJ0Nhu1ngEwwO8" Enabled="true" />
             <Fragment Id="UsSVZuhj8JsMavT9ry7A1H" Patch="A5AGXWs2pKsQJvR94KWrPr" Enabled="true" />
@@ -1782,7 +1673,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
-            <Pin Id="CKPDtTobwjGPSsAklqO0Lf" Name="Bounds" Kind="InputPin" DefaultValue="1054, 201, 600, 700" />
+            <Pin Id="CKPDtTobwjGPSsAklqO0Lf" Name="Bounds" Kind="InputPin" DefaultValue="1148, 48, 672, 552" />
             <Pin Id="OLbwFc1gkG2MJDaRddYzQF" Name="Input" Kind="InputPin" />
             <Pin Id="I2ZoQVyvTQROFvIPxnqNoF" Name="Color" Kind="InputPin" />
             <Pin Id="H0r72QurQnROe1tuVkzGBb" Name="Clear" Kind="InputPin" />
@@ -1877,7 +1768,7 @@
             <Pin Id="RAEfNexCgcEOapOU2CLkGT" Name="Distance Threshold" Kind="InputPin" />
             <Pin Id="IirYIeJCMeMLBRqqmRxKPi" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="FwEYGdDLkQnORI1eLYT8i4" Comment="Similarity Threshold" Bounds="285,326,35,15" ShowValueBox="true" isIOBox="true" Value="0.599999986588955">
+          <Pad Id="FwEYGdDLkQnORI1eLYT8i4" Comment="Similarity Threshold" Bounds="285,326,35,15" ShowValueBox="true" isIOBox="true" Value="0.62">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Float64" />
             </p:TypeAnnotation>
@@ -1933,7 +1824,7 @@
               <Item></Item>
             </p:Value>
           </Pad>
-          <Node Bounds="232,227,64,19" Id="Pejx2FOkrapP22nZWSD6rQ">
+          <Node Bounds="231,226,64,19" Id="Pejx2FOkrapP22nZWSD6rQ">
             <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="MyFuzzyLevenstein.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Levenstein" />
@@ -1991,6 +1882,131 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
+          <Node Bounds="54,327" Id="MheJX4thwSnNaTAfQkkJRw">
+            <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="Add" />
+              <CategoryReference Kind="RecordType" Name="Spread" NeedsToBeDirectParent="true" />
+            </p:NodeReference>
+            <Pin Id="NoEMzNT5Na5QCEMM67X83D" Name="Input" Kind="StateInputPin" />
+            <Pin Id="CBgOv5lf8ikN7UUIqtnrbN" Name="Item" Kind="InputPin" />
+            <Pin Id="HnsvYzJA34qO6uwev3QbHM" Name="Output" Kind="StateOutputPin" />
+          </Node>
+          <Pad Id="NDvcbQzaFpkM5iNGQhaVc6" Comment="Item" Bounds="119,314,35,15" ShowValueBox="true" isIOBox="true" Value="showtime">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="N9z9g8lbQfRNoHW8aSUVlM" Comment="" Bounds="-356,462,296,186" ShowValueBox="true" isIOBox="true">
+            <p:Value>
+              <Item></Item>
+            </p:Value>
+          </Pad>
+          <!--
+
+    ************************ Levenstein ************************
+
+-->
+          <Node Name="Levenstein" Bounds="404,-139" Id="CiKqc1JwfidNQ4tfXgAwNn">
+            <p:NodeReference>
+              <Choice Kind="ForwardDefinition" Name="Forward" />
+              <FullNameCategoryReference ID="Primitive" />
+            </p:NodeReference>
+            <p:TypeAnnotation LastCategoryFullName="SimMetrics.Net.Metric" LastSymbolSource="SimMetrics.Net.dll">
+              <Choice Kind="TypeFlag" Name="Levenstein" />
+            </p:TypeAnnotation>
+            <Patch Id="DXMhksoLrerQDFByQvo9R7">
+              <Canvas Id="FT0tDkjZRYNP8ZOM1ZKiiK" BordersChecked="false" CanvasType="Group" />
+              <ProcessDefinition Id="M8SqgqoLIRjPfD3pJYwDOo" IsHidden="true" />
+            </Patch>
+          </Node>
+          <!--
+
+    ************************ Levenstein ************************
+
+-->
+          <Node Name="Levenstein" Bounds="593,-141" Id="IJ18yypbs8bMf7hDRQpor7">
+            <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
+              <Choice Kind="ContainerDefinition" Name="Process" />
+            </p:NodeReference>
+            <Patch Id="CiP8CsSyeypNEU5MfMrALm">
+              <Canvas Id="FRV8NROibglQZxztpEOkrh" CanvasType="Group">
+                <Node Bounds="445,294" Id="PD8Uc19Bsm6Mf8UT23Gz3Y">
+                  <p:NodeReference LastCategoryFullName="Main.Levenstein" LastSymbolSource="MyFuzzyLevenstein.vl">
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <Choice Kind="OperationCallFlag" Name="Create" />
+                    <CategoryReference Kind="ClassType" Name="Levenstein" NeedsToBeDirectParent="true" />
+                  </p:NodeReference>
+                  <Pin Id="NTUlYWvGWnDOzXJ3oZcJWQ" Name="Output" Kind="StateOutputPin" />
+                </Node>
+                <Pad Id="JxLZYli0Vz5M7g8fUZnrhu" Bounds="447,346" />
+                <ControlPoint Id="Am74frK4HtHQCasIvXmGoW" Bounds="447,391" />
+              </Canvas>
+              <Patch Id="TJqPdrYvpA8Mi1tW9mDP2h" Name="Create" ParticipatingElements="ApoQ0HB8GxAPa36YVkLG5W" />
+              <Patch Id="KSNz8SuEXMDPwQSYW6K92K" Name="Get">
+                <Pin Id="D9N835Zkc9HLbwyYVN94B0" Name="Output" Kind="OutputPin">
+                  <p:TypeAnnotation>
+                    <Choice Kind="TypeFlag" Name="IStringMetric" />
+                  </p:TypeAnnotation>
+                </Pin>
+              </Patch>
+              <ProcessDefinition Id="V3y0AqKrFluNY8IQrK6rjS">
+                <Fragment Id="GUX18eGEeHcOkq8BUJU25S" Patch="TJqPdrYvpA8Mi1tW9mDP2h" Enabled="true" />
+                <Fragment Id="EzYeCxexlIEORFZv7YjoT5" Patch="KSNz8SuEXMDPwQSYW6K92K" Enabled="true" />
+              </ProcessDefinition>
+              <Link Id="ApoQ0HB8GxAPa36YVkLG5W" Ids="NTUlYWvGWnDOzXJ3oZcJWQ,JxLZYli0Vz5M7g8fUZnrhu" />
+              <Link Id="HpcAqtd3c1LPPz5RhIQCWS" Ids="Am74frK4HtHQCasIvXmGoW,D9N835Zkc9HLbwyYVN94B0" IsHidden="true" />
+              <Link Id="DkFL8ZmkYBFQZVDpqXTTq4" Ids="JxLZYli0Vz5M7g8fUZnrhu,Am74frK4HtHQCasIvXmGoW" />
+            </Patch>
+          </Node>
+          <Node Bounds="278,-46,81,19" Id="Rjxse0AOvUpPxfaUlgXXyS">
+            <p:NodeReference>
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Levenstein" />
+            </p:NodeReference>
+            <Pin Id="BXaRhLncgUBLiwbV7UjgqI" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="278,112,89,26" Id="OmMUxr8MdfXMZFlKdgSCJ9">
+            <p:NodeReference LastCategoryFullName="SimMetrics.Net.API.IStringMetric" LastSymbolSource="SimMetrics.Net.dll">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="AssemblyCategory" Name="IStringMetric" />
+              <Choice Kind="OperationCallFlag" Name="GetSimilarity" />
+            </p:NodeReference>
+            <Pin Id="Gtu6XBwrzE7NVwvp6e6aZ8" Name="Input" Kind="StateInputPin" />
+            <Pin Id="Emz6yFV4xVCPBozFhl1Hkr" Name="First Word" Kind="InputPin" />
+            <Pin Id="GUYleL2YUC5MC8YdYEuhyD" Name="Second Word" Kind="InputPin" />
+            <Pin Id="Th0nSFskye5QJQ6PXOYlfg" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="ObIwHNPZoOCMQxBWvuOUDE" Name="Result" Kind="OutputPin" />
+          </Node>
+          <Pad Id="ELSAO3QyOg5LvNbOEjN34R" Comment="First Word" Bounds="322,41,35,15" ShowValueBox="true" isIOBox="true" Value="A">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="HRp9Lw6PEDZO0T0x56DhE1" Comment="Second Word" Bounds="364,63,35,15" ShowValueBox="true" isIOBox="true" Value="A">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="FztyhTSDdUbQRXU0kXwiYe" Comment="" Bounds="436,169,35,15" ShowValueBox="true" isIOBox="true" />
+          <!--
+
+    ************************ IStringMetric ************************
+
+-->
+          <Node Name="IStringMetric" Bounds="405,-105" Id="SczroMZBeV3MsyDOlEZRrI">
+            <p:NodeReference>
+              <Choice Kind="ForwardDefinition" Name="Forward" />
+              <FullNameCategoryReference ID="Primitive" />
+            </p:NodeReference>
+            <p:TypeAnnotation LastCategoryFullName="SimMetrics.Net.API" LastSymbolSource="SimMetrics.Net.dll">
+              <Choice Kind="TypeFlag" Name="IStringMetric" />
+            </p:TypeAnnotation>
+            <Patch Id="IvumJABQGFuNk4Gz9QWL71">
+              <Canvas Id="CFrEIB5T0CjNiRv9MK5cgh" BordersChecked="false" CanvasType="Group" />
+              <ProcessDefinition Id="T7BcGzUrpnoLWZgkVIEQcC" IsHidden="true" />
+            </Patch>
+          </Node>
         </Canvas>
         <Patch Id="OpUig3E2oIEOtYuLpN4owK" Name="Create" />
         <Patch Id="UO2ZFpGRkZtLwDAZbjeq14" Name="Update" />
@@ -2008,27 +2024,34 @@
         <Link Id="DlLsp66GzpfO8kyBwggfVn" Ids="C0S5LLO09E2LX9lj0DNThe,MALnzAAhZbaOIkqaROTMdx" />
         <Link Id="BaRdYN2KRhZO1hEwM6ZAiL" Ids="VEg0N1RBUV1OhOnqFMe21L,Q52SYWsZ4qDMDnhOLS11Af" />
         <Link Id="IsGFE6SlE1uOV7KRhrRqBE" Ids="FwEYGdDLkQnORI1eLYT8i4,RAEfNexCgcEOapOU2CLkGT" />
-        <Link Id="IarfaiSzKswLd5FuELz6Ql" Ids="U1Xj7RaqliCLL5qsQBrNUZ,BcY4JDnnNlHPhWCe55X79x" />
         <Link Id="IEW1bwWcBGXNmXZfNRlYfM" Ids="Po2aEpdBIGJLEkrDd7XiQM,UMCsFhBfsOANJ26gdbvPBY" />
         <Link Id="SAPb2RBwbvNLoQgEbwSCTC" Ids="KwnNdVEim3IPtRfolvYO95,QaS2TtmqJUgMLYNao9bsr2" />
         <Link Id="PfClWwFn2qzPfY0wdk8k9X" Ids="JGymbPyxmZpQUZ166q6avV,UpsSQXLpP3uOvn7Cc896LF" />
         <Link Id="DI3e9AgEW9IMB2HPBJ0htZ" Ids="IrCVy0YQyIJPvhUuPEGxPF,EOkO2BzpVGwLd7Wv2I9jqM" />
         <Link Id="HlN8dXrkdDoPdzINt43o2g" Ids="EOkO2BzpVGwLd7Wv2I9jqM,MoEJZ1c7j4oOiIqAz0mx1d" />
         <Link Id="Q6ryzbZrtlFQQkBYobcTAa" Ids="UpsSQXLpP3uOvn7Cc896LF,D6rjGfp0xzZOMhe8rtS4YF" />
-        <Link Id="BwiGXEdzFThQYIJQ6TGeSq" Ids="MFYnywZajYrNXW25pLKaNd,KqU7MmHYYawLt6eLJUjB5h" />
         <Link Id="CTFwzJOBO0FPCohQvrgcxd" Ids="P74JjKRWH9HQJB6BNfJxDH,NxaIPo476YgNtnHr63qMos" />
         <Link Id="Rymv3DYGoWjL2mdXc631zw" Ids="IirYIeJCMeMLBRqqmRxKPi,ExQOuSoGcZ4QOQ9pA8jWaL" />
         <Link Id="OGWkEsNoNY0NwYCQkNFuui" Ids="K32vUnZ8MobMFimExekPgJ,ThPqXeb6n9JP3lLjaIyFkk" />
         <Link Id="NNs8t2xwtWvLOZSvfzDirb" Ids="L23UiSLhHNiQP1g5Qi1nR7,KwnNdVEim3IPtRfolvYO95" />
         <Link Id="RvXcb4Xn37tLTLu9dEksrS" Ids="Ml7dUJ32ijmQHG1g4aN4zC,KHgDSVuy1sgPkHMrBDwx7q" />
+        <Link Id="HHbMlkQV62vNb7nTlzfUBa" Ids="MFYnywZajYrNXW25pLKaNd,KqU7MmHYYawLt6eLJUjB5h" />
+        <Link Id="HHMUVSKRKY4LwTfC76W7sO" Ids="U1Xj7RaqliCLL5qsQBrNUZ,NoEMzNT5Na5QCEMM67X83D" />
+        <Link Id="M9JdopfXnx8Pu8e60HETXW" Ids="NDvcbQzaFpkM5iNGQhaVc6,CBgOv5lf8ikN7UUIqtnrbN" />
+        <Link Id="Mb3zwHPokJ3Oxn8xX6Ot9O" Ids="HnsvYzJA34qO6uwev3QbHM,BcY4JDnnNlHPhWCe55X79x" />
+        <Link Id="GNRLxOSvZmBLwpChPhj9i9" Ids="HnsvYzJA34qO6uwev3QbHM,N9z9g8lbQfRNoHW8aSUVlM" />
+        <Link Id="PQQZuFSrBt6Psp0FxkWywZ" Ids="ELSAO3QyOg5LvNbOEjN34R,Emz6yFV4xVCPBozFhl1Hkr" />
+        <Link Id="REUkOIBZmYeOO4Sof8Voro" Ids="HRp9Lw6PEDZO0T0x56DhE1,GUYleL2YUC5MC8YdYEuhyD" />
+        <Link Id="EqkNpfIbwQeLygbT8S7Um2" Ids="ObIwHNPZoOCMQxBWvuOUDE,FztyhTSDdUbQRXU0kXwiYe" />
+        <Link Id="UCkKHjY8LEqL0AIIz7ubIo" Ids="BXaRhLncgUBLiwbV7UjgqI,Gtu6XBwrzE7NVwvp6e6aZ8" />
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="SvIbTPmQ7Q1NoPGIxlchwU" Location="VL.CoreLib" Version="2021.4.0-0612-g61674eb07b" />
+  <NugetDependency Id="SvIbTPmQ7Q1NoPGIxlchwU" Location="VL.CoreLib" Version="2021.4.1-0630-g38f8355d9f" />
   <DocumentDependency Id="OyTlZpkmuUML4qszBtsrQT" Location="./FuseSharp/VL.FuseSharp.vl" />
   <NugetDependency Id="TVU2oY63a9rMbo2Bmsnwya" Location="FuseSharp" Version="1.4.0" />
-  <NugetDependency Id="MFs3GCnBNH3QA83ZHv1nsk" Location="VL.HDE" Version="2021.4.0-0612-g61674eb07b" />
-  <NugetDependency Id="SQMEVcW5rqWMHpwPPkTne3" Location="VL.Skia" Version="2021.4.0-0612-g61674eb07b" />
+  <NugetDependency Id="MFs3GCnBNH3QA83ZHv1nsk" Location="VL.HDE" Version="2021.4.1-0630-g38f8355d9f" />
+  <NugetDependency Id="SQMEVcW5rqWMHpwPPkTne3" Location="VL.Skia" Version="2021.4.1-0630-g38f8355d9f" />
   <NugetDependency Id="Nk3gEhAm8wOMlqlvJc3Gzn" Location="FuzzySharp" Version="2.0.2" />
   <NugetDependency Id="EuTclFL7CHUO0ydICefwPR" Location="SimMetrics.Net" Version="1.0.5" />
 </Document>
