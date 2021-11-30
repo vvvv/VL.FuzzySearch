@@ -341,7 +341,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
-            <Pin Id="CKPDtTobwjGPSsAklqO0Lf" Name="Bounds" Kind="InputPin" DefaultValue="1151, 206, 434, 700" />
+            <Pin Id="CKPDtTobwjGPSsAklqO0Lf" Name="Bounds" Kind="InputPin" DefaultValue="1139, 114, 507, 598" />
             <Pin Id="VKfgwqstiftPxPuz4NScvz" Name="Bound to Document" Kind="InputPin" />
             <Pin Id="OLbwFc1gkG2MJDaRddYzQF" Name="Input" Kind="InputPin" />
             <Pin Id="I2ZoQVyvTQROFvIPxnqNoF" Name="Color" Kind="InputPin" />
@@ -490,7 +490,7 @@
               <Choice Kind="TypeFlag" Name="Float64" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="AYkiT5xSYHUNIRv6wBlhOf" Bounds="816,438,149,19" ShowValueBox="true" isIOBox="true" Value="Type in the Renderer &gt;">
+          <Pad Id="AYkiT5xSYHUNIRv6wBlhOf" Bounds="816,438,181,45" ShowValueBox="true" isIOBox="true" Value="Type in the Renderer&#xD;&#xA;Press ESC to clear Search &gt;">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -520,11 +520,6 @@
               <Item>with</Item>
             </p:Value>
           </Pad>
-          <Pad Id="CcPysmGvebbMCoRzTbvGGC" Comment="Initial Text" Bounds="668,296,55,13" ShowValueBox="true" isIOBox="true" Value="Teextyre">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-              <Choice Kind="TypeFlag" Name="String" />
-            </p:TypeAnnotation>
-          </Pad>
         </Canvas>
         <Patch Id="OpUig3E2oIEOtYuLpN4owK" Name="Create" />
         <Patch Id="UO2ZFpGRkZtLwDAZbjeq14" Name="Update" />
@@ -550,7 +545,6 @@
         <Link Id="UacBRxrgG5POv30ZELhATR" Ids="VKQrkaZkPqpQMjl3So1YJA,S9tugiHLNd2Mvelh3C7XfR" />
         <Link Id="BtfQnGjeiOaMK5BKKuZCBQ" Ids="IirYIeJCMeMLBRqqmRxKPi,E26VH5H3FmvL501ZCAUkF2" />
         <Link Id="A0NYSiQZ0YuO98rNnlW34L" Ids="IFbfpx8JFQ0NX7IkqOUbEO,VlhZSoO4YLaK9V26yX4eeB" />
-        <Link Id="SXFaE1W3UYgMGMZopzPiIx" Ids="CcPysmGvebbMCoRzTbvGGC,E8uFyz4n5e1Na8LgxsiGRO" />
       </Patch>
     </Node>
   </Patch>
