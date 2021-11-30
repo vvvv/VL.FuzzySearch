@@ -280,9 +280,9 @@
             <ControlPoint Id="DE40eYPgpl8OAv5hvrsPVl" Bounds="847,79" />
             <ControlPoint Id="OHyHdzsY7k9QD8Ktu5bqz0" Bounds="948,78" />
             <Node Bounds="335,310,64,19" Id="TIItYhqBzfBLIDBZ2HSKrD">
-              <p:NodeReference LastCategoryFullName="FuzzySearch.Metrics" LastSymbolSource="VL.FuzzySearch.vl">
+              <p:NodeReference>
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                <Choice Kind="ProcessAppFlag" Name="Levenstein" />
+                <Choice Kind="ProcessAppFlag" Name="Levenshtein" />
               </p:NodeReference>
               <Pin Id="EGHmdSEZm2rOFBPbif9bur" Name="Output" Kind="OutputPin" />
             </Node>
@@ -501,10 +501,10 @@
       <Canvas Id="UwHxAVR3WXpNTkrasyVx8A" Name="Metrics" Position="325,421">
         <!--
 
-    ************************ Levenstein ************************
+    ************************ Levenshtein ************************
 
 -->
-        <Node Name="Levenstein" Bounds="435,388" Id="OJrvV9iNlszM3NMnpNJNBc">
+        <Node Name="Levenshtein" Bounds="435,388" Id="OJrvV9iNlszM3NMnpNJNBc">
           <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
             <Choice Kind="ContainerDefinition" Name="Process" />
           </p:NodeReference>
