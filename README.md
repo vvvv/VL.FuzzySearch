@@ -3,6 +3,8 @@
 FuzzySearch and Similarity Metrics library for VL.  
 Based on [SimMetricsCore](https://github.com/HamedFathi/SimMetricsCore).
 
+![FunnnySearch](demo/fuzzzySearch.png)
+
 Try it with vvvv, the visual live-programming environment for .NET  
 Download: http://visualprogramming.net
 
