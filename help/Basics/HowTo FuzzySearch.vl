@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="FllxGdqTiBhOpXvactednU" LanguageVersion="2021.4.1.661" Version="0.128">
+<Document xmlns:p="property" Id="FllxGdqTiBhOpXvactednU" LanguageVersion="2021.4.1.662" Version="0.128">
   <NugetDependency Id="Csw0pz2oYDvQCNFxvTKEOR" Location="VL.CoreLib" Version="2021.4.1-0661-gaabdb13545" />
   <Patch Id="DwZBIALdabOPFuhqz5KTQK">
     <Canvas Id="Ph4lWFdZGwkLiwbNjC0Swy" DefaultCategory="Main" CanvasType="FullCategory">
@@ -57,7 +57,7 @@
               <ControlPoint Id="JayfU5Pa2YYOVhhD4fi0bQ" Bounds="650,464" Alignment="Top" />
             </Node>
             <ControlPoint Id="Fuio94lv1mmPIfGOx7Yj3O" Bounds="650,618" />
-            <ControlPoint Id="QWau9ikvq9QOOWzcZMDO2g" Bounds="649,421" />
+            <ControlPoint Id="QWau9ikvq9QOOWzcZMDO2g" Bounds="650,421" />
           </Canvas>
           <Patch Id="IDG6rhyh2kBNW5D0Usy0Vy" Name="Create" />
           <Patch Id="NP3UqShiFQPMog0etSNeLq" Name="Update">
@@ -341,7 +341,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
-            <Pin Id="CKPDtTobwjGPSsAklqO0Lf" Name="Bounds" Kind="InputPin" DefaultValue="1122, 203, 434, 700" />
+            <Pin Id="CKPDtTobwjGPSsAklqO0Lf" Name="Bounds" Kind="InputPin" DefaultValue="1151, 206, 434, 700" />
             <Pin Id="VKfgwqstiftPxPuz4NScvz" Name="Bound to Document" Kind="InputPin" />
             <Pin Id="OLbwFc1gkG2MJDaRddYzQF" Name="Input" Kind="InputPin" />
             <Pin Id="I2ZoQVyvTQROFvIPxnqNoF" Name="Color" Kind="InputPin" />
@@ -435,31 +435,22 @@
             </p:NodeReference>
             <Pin Id="BcY4JDnnNlHPhWCe55X79x" Name="List to Search" Kind="InputPin" />
             <Pin Id="Q52SYWsZ4qDMDnhOLS11Af" Name="Search String" Kind="InputPin" />
-            <Pin Id="KqU7MmHYYawLt6eLJUjB5h" Name="Distance Algorithm" Kind="InputPin" />
             <Pin Id="NxaIPo476YgNtnHr63qMos" Name="Min Word Length" Kind="InputPin" />
             <Pin Id="VlhZSoO4YLaK9V26yX4eeB" Name="Words to Exclude" Kind="InputPin" />
             <Pin Id="RAEfNexCgcEOapOU2CLkGT" Name="Similarity Threshold" Kind="InputPin" />
             <Pin Id="IirYIeJCMeMLBRqqmRxKPi" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="FwEYGdDLkQnORI1eLYT8i4" Comment="Similarity Threshold" Bounds="329,359,35,15" ShowValueBox="true" isIOBox="true" Value="0.599999986588955">
+          <Pad Id="FwEYGdDLkQnORI1eLYT8i4" Comment="Similarity Threshold" Bounds="329,364,35,15" ShowValueBox="true" isIOBox="true" Value="0.599999986588955">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Float64" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="Po2aEpdBIGJLEkrDd7XiQM" Comment="File Path" Bounds="229,211,35,15" ShowValueBox="true" isIOBox="true" Value="Data.xml">
+          <Pad Id="Po2aEpdBIGJLEkrDd7XiQM" Comment="File Path" Bounds="229,211,35,15" ShowValueBox="true" isIOBox="true" Value="..\Assets\Data.xml">
             <p:TypeAnnotation LastCategoryFullName="IO" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Path" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="267,291,68,19" Id="Pejx2FOkrapP22nZWSD6rQ">
-            <p:NodeReference LastCategoryFullName="FuzzySearch.Metrics" LastSymbolSource="VL.FuzzySearch.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <CategoryReference Kind="Category" Name="Metrics" />
-              <Choice Kind="ProcessAppFlag" Name="Levenstein" />
-            </p:NodeReference>
-            <Pin Id="MFYnywZajYrNXW25pLKaNd" Name="Output" Kind="StateOutputPin" />
-          </Node>
-          <Pad Id="P74JjKRWH9HQJB6BNfJxDH" Comment="Min Word Length" Bounds="290,336,35,15" ShowValueBox="true" isIOBox="true" Value="2">
+          <Pad Id="P74JjKRWH9HQJB6BNfJxDH" Comment="Min Word Length" Bounds="280,338,35,15" ShowValueBox="true" isIOBox="true" Value="2">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
@@ -473,16 +464,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="RlBWuSHlyg6NyRo3xf6S4Y" Bounds="342,426,150,46" ShowValueBox="true" isIOBox="true" Value="&lt; Get Distances and Calculate Scrores">
-            <p:TypeAnnotation>
-              <Choice Kind="TypeFlag" Name="String" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:fontsize p:Type="Int32">9</p:fontsize>
-              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
-            </p:ValueBoxSettings>
-          </Pad>
-          <Pad Id="NhugMTvjA00MJf5lhr371L" Bounds="352,298,153,19" ShowValueBox="true" isIOBox="true" Value="&lt; Distance Algorithm">
+          <Pad Id="RlBWuSHlyg6NyRo3xf6S4Y" Bounds="342,428,150,46" ShowValueBox="true" isIOBox="true" Value="&lt; Get Distances and Calculate Scrores">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -538,6 +520,11 @@
               <Item>with</Item>
             </p:Value>
           </Pad>
+          <Pad Id="CcPysmGvebbMCoRzTbvGGC" Comment="Initial Text" Bounds="668,296,55,13" ShowValueBox="true" isIOBox="true" Value="Teextyre">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+          </Pad>
         </Canvas>
         <Patch Id="OpUig3E2oIEOtYuLpN4owK" Name="Create" />
         <Patch Id="UO2ZFpGRkZtLwDAZbjeq14" Name="Update" />
@@ -562,13 +549,13 @@
         <Link Id="RaUYV6EtBzLMiTYwINixA4" Ids="KO6xT78biUjMSaOB01UuaW,ThPqXeb6n9JP3lLjaIyFkk" />
         <Link Id="UacBRxrgG5POv30ZELhATR" Ids="VKQrkaZkPqpQMjl3So1YJA,S9tugiHLNd2Mvelh3C7XfR" />
         <Link Id="BtfQnGjeiOaMK5BKKuZCBQ" Ids="IirYIeJCMeMLBRqqmRxKPi,E26VH5H3FmvL501ZCAUkF2" />
-        <Link Id="DDoYEuSZemBQGHOfvFK2yt" Ids="MFYnywZajYrNXW25pLKaNd,KqU7MmHYYawLt6eLJUjB5h" />
         <Link Id="A0NYSiQZ0YuO98rNnlW34L" Ids="IFbfpx8JFQ0NX7IkqOUbEO,VlhZSoO4YLaK9V26yX4eeB" />
+        <Link Id="SXFaE1W3UYgMGMZopzPiIx" Ids="CcPysmGvebbMCoRzTbvGGC,E8uFyz4n5e1Na8LgxsiGRO" />
       </Patch>
     </Node>
   </Patch>
   <NugetDependency Id="SvIbTPmQ7Q1NoPGIxlchwU" Location="VL.CoreLib" Version="2021.4.1-0661-gaabdb13545" />
   <NugetDependency Id="MFs3GCnBNH3QA83ZHv1nsk" Location="VL.HDE" Version="2021.4.1-0661-gaabdb13545" />
   <NugetDependency Id="SQMEVcW5rqWMHpwPPkTne3" Location="VL.Skia" Version="2021.4.1-0661-gaabdb13545" />
-  <DocumentDependency Id="AAaXDRuMbd0OgLOawXFq6B" Location="./VL.FuzzySearch.vl" />
+  <NugetDependency Id="GaXPOD6el3PPG6uuWgmssv" Location="VL.FuzzySearch" Version="0.0.0.0" />
 </Document>
