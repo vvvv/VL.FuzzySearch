@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="N7SxPx70GtSLZoBkIjrpIz" LanguageVersion="2021.4.1.662" Version="0.128">
+<Document xmlns:p="property" Id="V4YQePuCLXZOKjGgG0m4JI" LanguageVersion="2021.4.1.662" Version="0.128">
   <NugetDependency Id="C7vbxUCIdwTM7nt6CQcJaL" Location="VL.CoreLib" Version="2021.4.1-0661-gaabdb13545" />
   <Patch Id="PVUrnX6kWZCPTTWEJcCOd2">
     <Canvas Id="DyZaVd9YauFPpJIxbWXMJV" DefaultCategory="FuzzySearch" CanvasType="FullCategory">
@@ -391,7 +391,7 @@
           <Patch Id="LP5e6DIDHffQb3lH2ekUYD" Name="Create" />
           <Patch Id="RUjzPGGUKYUOu427OwUgV8" Name="Update">
             <Pin Id="HJm5FzHoWNzQPw1JW5sm2J" Name="List to Search" Kind="InputPin" Bounds="438,68" />
-            <Pin Id="ERSoL7eLPErLNPxcoJBvIl" Name="Search String" Kind="InputPin" Bounds="549,65" DefaultValue="2" />
+            <Pin Id="ERSoL7eLPErLNPxcoJBvIl" Name="Search String" Kind="InputPin" Bounds="549,65" DefaultValue="" />
             <Pin Id="E36RPdfFyEmOAoEBN9tV15" Name="Min Word Length" Kind="InputPin" Bounds="775,-199" />
             <Pin Id="GXFJYrf4AIMNjlaSUU8bsy" Name="Case Sensetive" Kind="InputPin" Bounds="789,98" Visibility="Optional" />
             <Pin Id="GTB3OF74h7nPZyfB6GJpSz" Name="Words to Exclude" Kind="InputPin" Bounds="971,77" Visibility="Optional" />
