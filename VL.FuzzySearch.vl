@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="D2O1Lhy08f8L6hcHeDpYjc" LanguageVersion="2021.4.1.676" Version="0.128">
-  <NugetDependency Id="C7vbxUCIdwTM7nt6CQcJaL" Location="VL.CoreLib" Version="2021.4.1-0676-gfb2c77de7b" />
+<Document xmlns:p="property" Id="QDVtT0Z8fBYMjLwlcbJ0Wv" LanguageVersion="2021.4.6.772" Version="0.128">
+  <NugetDependency Id="C7vbxUCIdwTM7nt6CQcJaL" Location="VL.CoreLib" Version="2021.4.6-0770-g08180d89e8" />
   <Patch Id="PVUrnX6kWZCPTTWEJcCOd2">
     <Canvas Id="DyZaVd9YauFPpJIxbWXMJV" DefaultCategory="Text.FuzzySearch" CanvasType="FullCategory">
       <!--
@@ -1550,6 +1550,6 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="GvfIf55Ri2KPvJ4o2Za6wl" Location="VL.CoreLib" Version="2021.4.1-0676-gfb2c77de7b" />
-  <DocumentDependency Id="VySB39fg0YVO2gcPDN98Re" Location="./VL.Text.SimMetrics.vl" />
+  <NugetDependency Id="GvfIf55Ri2KPvJ4o2Za6wl" Location="VL.CoreLib" Version="2021.4.6-0770-g08180d89e8" />
+  <DocumentDependency Id="VySB39fg0YVO2gcPDN98Re" Location="./VL.Text.SimMetrics.vl" IsForward="true" />
 </Document>

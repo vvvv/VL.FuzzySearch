@@ -2,13 +2,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
     <id>VL.FuzzySearch</id>
-    <version>0.0.1-alpha</version>
+    <version>0.0.2-alpha</version>
     <title>VL.FuzzySearch</title>
     <authors>vvvv</authors>
     <owners>vvvv</owners>
     <projectUrl>https://github.com/vvvv/VL.FuzzySearch</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <summary>Wrapper for the SimMetricsCore and Fuzzy Search related nodes.</summary>
+    <summary>Wrapper for the SimMetricsCore library and some Fuzzy Search related nodes.</summary>
     <description>Wrapper for the text similarity metric library SimMetricsCore and several nodes covering Fuzzy Search tasks.</description>
     <tags>VL, metrics, Levenshtein, Fuzzy, Search</tags>
 	<dependencies>
