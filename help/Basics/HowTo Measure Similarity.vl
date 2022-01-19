@@ -361,12 +361,10 @@
             <Pin Id="Lphe7mnlvujN68or7aILkd" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="212,385,74,26" Id="DD0K4vfC5abOZb5vPaMzFR">
-            <p:NodeReference LastCategoryFullName="FuzzySearch.Metrics.IStringMetric" LastSymbolSource="VL.FuzzySearch.vl">
+            <p:NodeReference LastCategoryFullName="Text.Metrics.IStringMetric" LastSymbolSource="VL.Text.SimMetrics.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <CategoryReference Kind="Category" Name="FuzzySearch" />
-              <CategoryReference Kind="Category" Name="Metrics" />
-              <CategoryReference Kind="MutableInterfaceType" Name="IStringMetric" />
               <Choice Kind="OperationCallFlag" Name="GetSimilarity" />
+              <CategoryReference Kind="MutableInterfaceType" Name="IStringMetric" NeedsToBeDirectParent="true" />
             </p:NodeReference>
             <Pin Id="M5m56dg3jZKLnuO0uonc2k" Name="Input" Kind="StateInputPin" />
             <Pin Id="ScKYKVdpPbUQTu2CA3oziR" Name="First Word" Kind="InputPin" />
@@ -385,7 +383,7 @@
             </p:TypeAnnotation>
           </Pad>
           <Pad Id="GRhHjonyJUxM1B5syL3DZR" Comment="Result" Bounds="283,450,35,15" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="LrPObp6w0C9NjNpL8jrfGT" Bounds="362,228,212,69" ShowValueBox="true" isIOBox="true" Value="&lt; Different string metrics.&#xD;&#xA;See more in the Nodebrowser under FuzzySearch &gt; Metrics.">
+          <Pad Id="LrPObp6w0C9NjNpL8jrfGT" Bounds="362,228,212,69" ShowValueBox="true" isIOBox="true" Value="&lt; Different string metrics.&#xD;&#xA;See more in the Nodebrowser under Text &gt; Metrics.">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -420,5 +418,5 @@
   <NugetDependency Id="SvIbTPmQ7Q1NoPGIxlchwU" Location="VL.CoreLib" Version="2021.4.1-0661-gaabdb13545" />
   <NugetDependency Id="MFs3GCnBNH3QA83ZHv1nsk" Location="VL.HDE" Version="2021.4.1-0661-gaabdb13545" />
   <NugetDependency Id="SQMEVcW5rqWMHpwPPkTne3" Location="VL.Skia" Version="2021.4.1-0661-gaabdb13545" />
-  <NugetDependency Id="GaXPOD6el3PPG6uuWgmssv" Location="VL.FuzzySearch" Version="0.0.0.0" />
+  <DocumentDependency Id="BKOnPgn1RACMGdRHpppQK8" Location="../../VL.Text.SimMetrics.vl" />
 </Document>

@@ -341,7 +341,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
-            <Pin Id="CKPDtTobwjGPSsAklqO0Lf" Name="Bounds" Kind="InputPin" DefaultValue="1139, 114, 507, 598" />
+            <Pin Id="CKPDtTobwjGPSsAklqO0Lf" Name="Bounds" Kind="InputPin" DefaultValue="1354, 192, 507, 598" />
             <Pin Id="VKfgwqstiftPxPuz4NScvz" Name="Bound to Document" Kind="InputPin" />
             <Pin Id="OLbwFc1gkG2MJDaRddYzQF" Name="Input" Kind="InputPin" />
             <Pin Id="I2ZoQVyvTQROFvIPxnqNoF" Name="Color" Kind="InputPin" />
@@ -435,22 +435,18 @@
             </p:NodeReference>
             <Pin Id="BcY4JDnnNlHPhWCe55X79x" Name="List to Search" Kind="InputPin" />
             <Pin Id="Q52SYWsZ4qDMDnhOLS11Af" Name="Search String" Kind="InputPin" />
-            <Pin Id="NxaIPo476YgNtnHr63qMos" Name="Min Word Length" Kind="InputPin" />
+            <Pin Id="QSY1SLGOupZLEcz80Ex3qY" Name="Minimum Word Length" Kind="InputPin" />
             <Pin Id="VlhZSoO4YLaK9V26yX4eeB" Name="Words to Exclude" Kind="InputPin" />
             <Pin Id="RAEfNexCgcEOapOU2CLkGT" Name="Similarity Threshold" Kind="InputPin" />
             <Pin Id="IirYIeJCMeMLBRqqmRxKPi" Name="Output" Kind="OutputPin" />
+            <Pin Id="LwgrVxzdnsgNUCbT12CSZS" Name="Search String exists" Kind="OutputPin" />
           </Node>
-          <Pad Id="FwEYGdDLkQnORI1eLYT8i4" Comment="Similarity Threshold" Bounds="329,424,35,15" ShowValueBox="true" isIOBox="true" Value="0.599999986588955">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-              <Choice Kind="TypeFlag" Name="Float64" />
-            </p:TypeAnnotation>
-          </Pad>
           <Pad Id="Po2aEpdBIGJLEkrDd7XiQM" Comment="File Path" Bounds="229,271,35,15" ShowValueBox="true" isIOBox="true" Value="..\Assets\Data.xml">
             <p:TypeAnnotation LastCategoryFullName="IO" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Path" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="P74JjKRWH9HQJB6BNfJxDH" Comment="Min Word Length" Bounds="280,398,35,15" ShowValueBox="true" isIOBox="true" Value="2">
+          <Pad Id="P74JjKRWH9HQJB6BNfJxDH" Comment="Min Word Length" Bounds="279,407,35,15" ShowValueBox="true" isIOBox="true" Value="2">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
@@ -478,18 +474,13 @@
               <Choice Kind="ProcessNode" Name="SpliceSearchResult" />
             </p:NodeReference>
             <Pin Id="E26VH5H3FmvL501ZCAUkF2" Name="Input" Kind="InputPin" />
-            <Pin Id="S9tugiHLNd2Mvelh3C7XfR" Name="Min Score" Kind="InputPin" />
+            <Pin Id="S9tugiHLNd2Mvelh3C7XfR" Name="Minimum Score" Kind="InputPin" />
             <Pin Id="KO6xT78biUjMSaOB01UuaW" Name="Values" Kind="OutputPin" />
             <Pin Id="EbIAhnqOInnLFU7uRywkBU" Name="Indices" Kind="OutputPin" />
             <Pin Id="IjngY7pgh4ENozdoUYYWjW" Name="Scores" Kind="OutputPin" />
             <Pin Id="B5VLDxqcJRtPo4zVT7H55Y" Name="Similarities" Kind="OutputPin" />
           </Node>
           <Pad Id="K5RS9Ae0qAhLPvVEv7DKaD" Comment="Scores" Bounds="303,731,73,110" ShowValueBox="true" isIOBox="true" Value="0" />
-          <Pad Id="VKQrkaZkPqpQMjl3So1YJA" Comment="Min Score" Bounds="341,609,35,15" ShowValueBox="true" isIOBox="true" Value="0">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-              <Choice Kind="TypeFlag" Name="Float64" />
-            </p:TypeAnnotation>
-          </Pad>
           <Pad Id="AYkiT5xSYHUNIRv6wBlhOf" Bounds="816,498,181,45" ShowValueBox="true" isIOBox="true" Value="Type in the Renderer&#xD;&#xA;Press ESC to clear Search &gt;">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="String" />
@@ -529,6 +520,16 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
+          <Pad Id="L373Htp1DPXMM57sJHdpsr" Comment="Similarity Threshold" Bounds="329,433,35,15" ShowValueBox="true" isIOBox="true" Value="0.6">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="Float32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="EwLItSDGUEAMlyIxQyXStq" Comment="Minimum Score" Bounds="341,617,35,15" ShowValueBox="true" isIOBox="true" Value="0">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="Float32" />
+            </p:TypeAnnotation>
+          </Pad>
         </Canvas>
         <Patch Id="OpUig3E2oIEOtYuLpN4owK" Name="Create" />
         <Patch Id="UO2ZFpGRkZtLwDAZbjeq14" Name="Update" />
@@ -545,20 +546,20 @@
         <Link Id="Mq1eG6PhrSZOb76I0WJg2Z" Ids="VEg0N1RBUV1OhOnqFMe21L,L85tXTd5rPNLTBFmzWh9F8" />
         <Link Id="DlLsp66GzpfO8kyBwggfVn" Ids="C0S5LLO09E2LX9lj0DNThe,MALnzAAhZbaOIkqaROTMdx" />
         <Link Id="BaRdYN2KRhZO1hEwM6ZAiL" Ids="VEg0N1RBUV1OhOnqFMe21L,Q52SYWsZ4qDMDnhOLS11Af" />
-        <Link Id="IsGFE6SlE1uOV7KRhrRqBE" Ids="FwEYGdDLkQnORI1eLYT8i4,RAEfNexCgcEOapOU2CLkGT" />
         <Link Id="IEW1bwWcBGXNmXZfNRlYfM" Ids="Po2aEpdBIGJLEkrDd7XiQM,UMCsFhBfsOANJ26gdbvPBY" />
-        <Link Id="CTFwzJOBO0FPCohQvrgcxd" Ids="P74JjKRWH9HQJB6BNfJxDH,NxaIPo476YgNtnHr63qMos" />
         <Link Id="U0WNzhIsa8XOw4ntrDIfJI" Ids="IjngY7pgh4ENozdoUYYWjW,K5RS9Ae0qAhLPvVEv7DKaD" />
         <Link Id="HRbwxOJEpwTQMwq5mZxZur" Ids="U1Xj7RaqliCLL5qsQBrNUZ,BcY4JDnnNlHPhWCe55X79x" />
         <Link Id="RaUYV6EtBzLMiTYwINixA4" Ids="KO6xT78biUjMSaOB01UuaW,ThPqXeb6n9JP3lLjaIyFkk" />
-        <Link Id="UacBRxrgG5POv30ZELhATR" Ids="VKQrkaZkPqpQMjl3So1YJA,S9tugiHLNd2Mvelh3C7XfR" />
         <Link Id="BtfQnGjeiOaMK5BKKuZCBQ" Ids="IirYIeJCMeMLBRqqmRxKPi,E26VH5H3FmvL501ZCAUkF2" />
         <Link Id="A0NYSiQZ0YuO98rNnlW34L" Ids="IFbfpx8JFQ0NX7IkqOUbEO,VlhZSoO4YLaK9V26yX4eeB" />
+        <Link Id="CZcuH72jfREOLnpDkobAby" Ids="P74JjKRWH9HQJB6BNfJxDH,QSY1SLGOupZLEcz80Ex3qY" />
+        <Link Id="AkBL4e9scPFQXynjJw0Ied" Ids="L373Htp1DPXMM57sJHdpsr,RAEfNexCgcEOapOU2CLkGT" />
+        <Link Id="QIaOfM8gwrgOAmObXjAmtS" Ids="EwLItSDGUEAMlyIxQyXStq,S9tugiHLNd2Mvelh3C7XfR" />
       </Patch>
     </Node>
   </Patch>
   <NugetDependency Id="SvIbTPmQ7Q1NoPGIxlchwU" Location="VL.CoreLib" Version="2021.4.1-0661-gaabdb13545" />
   <NugetDependency Id="MFs3GCnBNH3QA83ZHv1nsk" Location="VL.HDE" Version="2021.4.1-0661-gaabdb13545" />
   <NugetDependency Id="SQMEVcW5rqWMHpwPPkTne3" Location="VL.Skia" Version="2021.4.1-0661-gaabdb13545" />
-  <NugetDependency Id="GaXPOD6el3PPG6uuWgmssv" Location="VL.FuzzySearch" Version="0.0.0.0" />
+  <DocumentDependency Id="CAp0aSLE5bOL90iqf1rrbt" Location="../../VL.FuzzySearch.vl" />
 </Document>
