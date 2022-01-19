@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="N7SxPx70GtSLZoBkIjrpIz" LanguageVersion="2021.4.1.662" Version="0.128">
-  <NugetDependency Id="C7vbxUCIdwTM7nt6CQcJaL" Location="VL.CoreLib" Version="2021.4.1-0661-gaabdb13545" />
+<Document xmlns:p="property" Id="Q2hkq2dyP13NaENHCi4CLy" LanguageVersion="2021.4.6.772" Version="0.128">
+  <NugetDependency Id="C7vbxUCIdwTM7nt6CQcJaL" Location="VL.CoreLib" Version="2021.4.6-0770-g08180d89e8" />
   <Patch Id="PVUrnX6kWZCPTTWEJcCOd2">
     <Canvas Id="DyZaVd9YauFPpJIxbWXMJV" DefaultCategory="Text" CanvasType="FullCategory">
       <Canvas Id="UwHxAVR3WXpNTkrasyVx8A" Name="Metrics" Position="339,264">
@@ -755,6 +755,6 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="GvfIf55Ri2KPvJ4o2Za6wl" Location="VL.CoreLib" Version="2021.4.1-0661-gaabdb13545" />
-  <NugetDependency Id="DOZa7OAKgQ2MclPTD6BsjJ" Location="SimMetricsCore" Version="2.1.0" />
+  <NugetDependency Id="GvfIf55Ri2KPvJ4o2Za6wl" Location="VL.CoreLib" Version="2021.4.6-0770-g08180d89e8" />
+  <PlatformDependency Id="P9Sdn6RF1fDPZXTiL37XGk" Location="SimMetricsCore.dll" />
 </Document>
