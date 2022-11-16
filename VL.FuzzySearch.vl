@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="QDVtT0Z8fBYMjLwlcbJ0Wv" LanguageVersion="2021.4.6.772" Version="0.128">
-  <NugetDependency Id="C7vbxUCIdwTM7nt6CQcJaL" Location="VL.CoreLib" Version="2021.4.6-0770-g08180d89e8" />
+<Document xmlns:p="property" Id="QDVtT0Z8fBYMjLwlcbJ0Wv" LanguageVersion="2021.4.12.1346" Version="0.128">
+  <NugetDependency Id="C7vbxUCIdwTM7nt6CQcJaL" Location="VL.CoreLib" Version="2021.4.12-1344-g6b5ff04289" />
   <Patch Id="PVUrnX6kWZCPTTWEJcCOd2">
     <Canvas Id="DyZaVd9YauFPpJIxbWXMJV" DefaultCategory="Text.FuzzySearch" CanvasType="FullCategory">
       <!--
@@ -1497,7 +1497,7 @@
           <Patch Id="FYujlenn0VpNcYhP1dVkoF" Name="Update">
             <Pin Id="NhmYTg88Z21LaVe8W3Oqne" Name="Original Strings" Kind="InputPin" />
             <Pin Id="Tm981vTgrMcPeBZHimSbpR" Name="List to Search" Kind="InputPin" Bounds="438,68" />
-            <Pin Id="Ie0NNsBQ2bdOqAAhiFZ5ru" Name="Search String" Kind="InputPin" Bounds="549,65" DefaultValue="" />
+            <Pin Id="Ie0NNsBQ2bdOqAAhiFZ5ru" Name="Search String" Kind="InputPin" Bounds="549,65" />
             <Pin Id="GYPTjksB3tHM1E7oq8PsZv" Name="Similarity Threshold" Kind="InputPin" Bounds="678,61" DefaultValue="0.6" />
             <Pin Id="Ju4F2hA2hCfMU58fstgTlJ" Name="Algorithm" Kind="InputPin" Bounds="771,71" />
             <Pin Id="DgB6sNWPXjpOmuFtGY0aSC" Name="Output" Kind="OutputPin" Bounds="462,801" />
@@ -1550,6 +1550,6 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="GvfIf55Ri2KPvJ4o2Za6wl" Location="VL.CoreLib" Version="2021.4.6-0770-g08180d89e8" />
+  <NugetDependency Id="GvfIf55Ri2KPvJ4o2Za6wl" Location="VL.CoreLib" Version="2021.4.12-1344-g6b5ff04289" />
   <DocumentDependency Id="VySB39fg0YVO2gcPDN98Re" Location="./VL.Text.SimMetrics.vl" IsForward="true" />
 </Document>
