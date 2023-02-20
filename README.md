@@ -1,3 +1,6 @@
+ARCHIVED: we moved to https://github.com/vvvv/VL.StandardLibs
+
+
 # VL.FuzzySearch
 
 FuzzySearch and Similarity Metrics library for VL.  
